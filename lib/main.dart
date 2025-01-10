@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false, // Removes the debug banner.
-      title: 'Demo for currency picker package', // Title of the app.
+      title: 'Demo for currency picker package', // Title of the app
       theme: ThemeData.dark(), // Sets the app theme to dark mode.
       home: const HomePage(), // Sets the HomePage as the initial screen.
     );
